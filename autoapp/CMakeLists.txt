@@ -7,13 +7,13 @@ add_executable(autoapp
         UI/settingswindow.ui
         UI/SettingsWindow.cpp
         assets/resources.qrc
-        ${CMAKE_SOURCE_DIR}/include/autoapp/UI/ConnectDialog.hpp
-        ${CMAKE_SOURCE_DIR}/include/autoapp/UI/MainWindow.hpp
-        ${CMAKE_SOURCE_DIR}/include/autoapp/UI/SettingsWindow.hpp
+        ${PROJECT_SOURCE_DIR}/include/autoapp/UI/ConnectDialog.hpp
+        ${PROJECT_SOURCE_DIR}/include/autoapp/UI/MainWindow.hpp
+        ${PROJECT_SOURCE_DIR}/include/autoapp/UI/SettingsWindow.hpp
         )
 
 target_include_directories(autoapp PRIVATE
-        ${CMAKE_SOURCE_DIR}/include
+        ${PROJECT_SOURCE_DIR}/include
         ${CMAKE_CURRENT_BINARY_DIR}
         )
 

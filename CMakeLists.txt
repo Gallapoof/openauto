@@ -1,4 +1,5 @@
-cmake_minimum_required(VERSION 3.5.1)
+cmake_minimum_required(VERSION 3.12)
+include(FetchContent)
 
 set (openauto_VERSION_MAJOR 2)
 set (openauto_VERSION_MINOR 1)
@@ -35,6 +36,14 @@ if (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-psabi")
 endif()
 
+FetchContent_Declare(
+    aasdk
+    GIT_REPOSITORY https://github.com/Gallapoof/aasdk.git
+    GIT_TAG develop
+)
+
+FetchContent_MakeAvailable()
+
 set(Boost_USE_STATIC_LIBS OFF)
 set(Boost_USE_MULTITHREADED ON)
 set(Boost_USE_STATIC_RUNTIME OFF)
@@ -46,7 +55,6 @@ find_package(Qt5 COMPONENTS Multimedia MultimediaWidgets Bluetooth Qml Quick Qui
 find_package(Protobuf REQUIRED)
 find_package(OpenSSL REQUIRED)
 find_package(rtaudio REQUIRED)
-find_package(aasdk REQUIRED)
 find_package(h264 REQUIRED)
 find_package(Threads)
 

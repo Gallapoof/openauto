@@ -29,66 +29,66 @@ add_library(openauto SHARED
         Projection/QtAudioInput.cpp
         Projection/RtAudioOutput.cpp
         Projection/QtAudioOutput.cpp
-        ${CMAKE_SOURCE_DIR}/btservice/AndroidBluetoothServer.cpp
-        ${CMAKE_SOURCE_DIR}/btservice/AndroidBluetoothServer.cpp
-        ${CMAKE_SOURCE_DIR}/btservice/AndroidBluetoothService.cpp
-        ${CMAKE_SOURCE_DIR}/btservice/btservice.cpp
-        ${CMAKE_SOURCE_DIR}/include/btservice/AndroidBluetoothServer.hpp
-        ${CMAKE_SOURCE_DIR}/include/btservice/AndroidBluetoothService.hpp
-        ${CMAKE_SOURCE_DIR}/include/btservice/IAndroidBluetoothServer.hpp
-        ${CMAKE_SOURCE_DIR}/include/btservice/IAndroidBluetoothService.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/App.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Configuration/Configuration.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Configuration/RecentAddressesList.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Configuration/AudioOutputBackendType.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Configuration/IConfiguration.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Configuration/IRecentAddressesList.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Configuration/HandednessOfTrafficType.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Configuration/BluetootAdapterType.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Service/NavigationStatusService.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Service/MediaStatusService.hpp
-	${CMAKE_SOURCE_DIR}/include/openauto/Service/MediaAudioService.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Service/SensorService.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Service/IPinger.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Service/IAndroidAutoEntity.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Service/SystemAudioService.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Service/IAndroidAutoEntityEventHandler.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Service/AudioInputService.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Service/VideoService.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Service/IAndroidAutoEntityFactory.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Service/AudioService.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Service/IServiceFactory.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Service/BluetoothService.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Service/AndroidAutoEntity.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Service/ServiceFactory.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Service/SpeechAudioService.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Service/AndroidAutoEntityFactory.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Service/IService.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Service/Pinger.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Service/InputService.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Projection/IInputDeviceEventHandler.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Projection/IVideoOutput.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Projection/RtAudioOutput.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Projection/LocalBluetoothDevice.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Projection/IAudioOutput.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Projection/QtAudioInput.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Projection/VideoOutput.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Projection/IBluetoothDevice.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Projection/OMXVideoOutput.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Projection/IAudioInput.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Projection/DummyBluetoothDevice.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Projection/IInputDevice.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Projection/InputDevice.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Projection/QtAudioOutput.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Projection/RemoteBluetoothDevice.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Projection/QtVideoOutput.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Projection/SequentialBuffer.hpp
-        ${CMAKE_SOURCE_DIR}/include/openauto/Projection/InputEvent.hpp
+        ${PROJECT_SOURCE_DIR}/btservice/AndroidBluetoothServer.cpp
+        ${PROJECT_SOURCE_DIR}/btservice/AndroidBluetoothServer.cpp
+        ${PROJECT_SOURCE_DIR}/btservice/AndroidBluetoothService.cpp
+        ${PROJECT_SOURCE_DIR}/btservice/btservice.cpp
+        ${PROJECT_SOURCE_DIR}/include/btservice/AndroidBluetoothServer.hpp
+        ${PROJECT_SOURCE_DIR}/include/btservice/AndroidBluetoothService.hpp
+        ${PROJECT_SOURCE_DIR}/include/btservice/IAndroidBluetoothServer.hpp
+        ${PROJECT_SOURCE_DIR}/include/btservice/IAndroidBluetoothService.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/App.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Configuration/Configuration.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Configuration/RecentAddressesList.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Configuration/AudioOutputBackendType.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Configuration/IConfiguration.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Configuration/IRecentAddressesList.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Configuration/HandednessOfTrafficType.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Configuration/BluetootAdapterType.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Service/NavigationStatusService.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Service/MediaStatusService.hpp
+	${PROJECT_SOURCE_DIR}/include/openauto/Service/MediaAudioService.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Service/SensorService.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Service/IPinger.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Service/IAndroidAutoEntity.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Service/SystemAudioService.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Service/IAndroidAutoEntityEventHandler.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Service/AudioInputService.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Service/VideoService.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Service/IAndroidAutoEntityFactory.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Service/AudioService.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Service/IServiceFactory.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Service/BluetoothService.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Service/AndroidAutoEntity.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Service/ServiceFactory.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Service/SpeechAudioService.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Service/AndroidAutoEntityFactory.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Service/IService.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Service/Pinger.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Service/InputService.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Projection/IInputDeviceEventHandler.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Projection/IVideoOutput.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Projection/RtAudioOutput.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Projection/LocalBluetoothDevice.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Projection/IAudioOutput.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Projection/QtAudioInput.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Projection/VideoOutput.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Projection/IBluetoothDevice.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Projection/OMXVideoOutput.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Projection/IAudioInput.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Projection/DummyBluetoothDevice.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Projection/IInputDevice.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Projection/InputDevice.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Projection/QtAudioOutput.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Projection/RemoteBluetoothDevice.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Projection/QtVideoOutput.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Projection/SequentialBuffer.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Projection/InputEvent.hpp
         )
 
 if(GST_BUILD)
 target_sources(openauto PRIVATE	
-        ${CMAKE_SOURCE_DIR}/include/openauto/Projection/GSTVideoOutput.hpp
+        ${PROJECT_SOURCE_DIR}/include/openauto/Projection/GSTVideoOutput.hpp
         )
 
 target_include_directories(openauto SYSTEM PUBLIC
@@ -105,7 +105,7 @@ target_link_libraries(openauto PRIVATE
 endif()
 
 target_include_directories(openauto PRIVATE
-        ${CMAKE_SOURCE_DIR}/include
+        ${PROJECT_SOURCE_DIR}/include
         ${RTAUDIO_INCLUDE_DIRS}
         ${Protobuf_INCLUDE_DIRS}
         )
@@ -129,6 +129,6 @@ install(TARGETS openauto
 set_target_properties(openauto
         PROPERTIES INSTALL_RPATH_USE_LINK_PATH 1)
 
-install(DIRECTORY ${CMAKE_SOURCE_DIR}/include/openauto DESTINATION include)
-install(DIRECTORY ${CMAKE_SOURCE_DIR}/include/btservice DESTINATION include)
-install(FILES ${CMAKE_SOURCE_DIR}/include/OpenautoLog.hpp DESTINATION include)
+install(DIRECTORY ${PROJECT_SOURCE_DIR}/include/openauto DESTINATION include)
+install(DIRECTORY ${PROJECT_SOURCE_DIR}/include/btservice DESTINATION include)
+install(FILES ${PROJECT_SOURCE_DIR}/include/OpenautoLog.hpp DESTINATION include)
